@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Crear un usuario" skipped="0" tests="2" time="45.4" timestamp="2022-03-29 04:07:36"><testcase name="Registro correcto de usuario"/><testcase name="Registro incorrecto de usuario ya existente"/></testsuite>
