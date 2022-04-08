@@ -30,6 +30,7 @@ compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
 dependencies {
+
     implementation group: 'net.serenity-bdd', name: 'serenity-core',                 version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-junit',                version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay',           version: serenityVersion

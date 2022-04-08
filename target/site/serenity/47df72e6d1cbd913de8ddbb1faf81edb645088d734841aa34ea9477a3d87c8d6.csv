@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Ingresar al sistema","Loggin de usuario","SUCCESS","2022-04-07T18:52:14.542-05:00[America/Bogota]","0.0","36.88"
+"Ingresar al sistema","Loggin erroneo de usuario","SUCCESS","2022-04-07T18:52:52.19-05:00[America/Bogota]","0.0","15.57"

@@ -2,7 +2,7 @@ package co.com.sofka.task.signin;
 
 import co.com.sofka.userinterface.home.Home;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Question;
+
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
@@ -38,9 +38,8 @@ public class BrowseOnlyToRegisterPage implements Task {
                 Enter.theValue(password).into(PASSWORD_FIELD),
 
                 Scroll.to(SIGN_IN_BUTTON),
-                Click.on(SIGN_IN_BUTTON));
-
-                Scroll.to(SIGN_IN_ERROR);
+                Click.on(SIGN_IN_BUTTON)
+        );
     }
 
     public static BrowseOnlyToRegisterPage browseToTheRegisterPage3() {

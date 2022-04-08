@@ -82,5 +82,4 @@ public class CreateAccountStepDefinition extends SetUp {
         String palabraStr = palabra.toString();
         return palabraStr + "@gmail.com";
     }
-
 }

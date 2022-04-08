@@ -10,7 +10,6 @@ public class Home extends PageObject {
             .located(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a"));
 
     public static final Target CONTACT_BUTTON = Target
-            //located by //*[@id="contact-link"]/a
             .the("Contact button")
             .located(By.xpath("//*[@id=\"contact-link\"]/a"));
 }

@@ -30,7 +30,6 @@ public class SignInStepDefinition extends SetUp {
     public void queElUsuarioSeEncuentraEnLaPaginaDeInicio() {
         actorSetupTheBrowser(USUARIO);
         theActorInTheSpotlight().wasAbleTo(openLandingPage());
-
     }
 
     @When("ingresa al sistema")

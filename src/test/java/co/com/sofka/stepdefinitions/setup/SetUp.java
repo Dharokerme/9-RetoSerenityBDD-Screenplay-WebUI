@@ -14,20 +14,18 @@ public class SetUp {
     @Managed()
     protected WebDriver browser;
 
-    private void setupBrowser(WebDriver browser){
+    private void setupBrowser(WebDriver browser) {
         browser.manage().deleteAllCookies();
         browser.manage().window().maximize();
     }
 
-    private void setupUser(String name, WebDriver browser){
+    private void setupUser(String name, WebDriver browser) {
         OnStage.setTheStage(new OnlineCast());
         theActorCalled(name).can(BrowseTheWeb.with(browser));
     }
 
-    protected void actorSetupTheBrowser(String actorName){
+    protected void actorSetupTheBrowser(String actorName) {
         setupBrowser(browser);
         setupUser(actorName, browser);
     }
-
-
 }

@@ -4,8 +4,6 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-import static org.openqa.selenium.By.cssSelector;
-
 public class ContacUs extends PageObject {
 
     public static final Target SUBJECT= Target
